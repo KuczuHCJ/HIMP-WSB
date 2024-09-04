@@ -1,0 +1,13 @@
+﻿<Window x:Class="HIMP.AddItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dodaj Przedmiot" Height="300" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox Name="txtNazwa" Width="200" Margin="10" Text="Nazwa"/>
+            <TextBox Name="txtLokalizacja" Width="200" Margin="10" Text="Lokalizacja"/>
+            <TextBox Name="txtOpis" Width="200" Height="50" Margin="10" Text="Opis"/>
+            <Button Content="Dodaj" Click="DodajPrzedmiot_Click" Width="100" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
